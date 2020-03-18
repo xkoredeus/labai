@@ -51,36 +51,166 @@
                     <div class="container">
                         <div class="test-form">
                             <div class="test-form__ttl">Получите конкретные варианты выхода из долгов</div>
-                            <div class="test-form__group">
-                                <select class="test-form__select js-select" name="test-form__amount">
-                                    <option value disabled selected hidden>Сумма вашего долга?</option>
-                                    <option value="1">1</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <select class="test-form__select js-select" name="test-form__who">
-                                    <option value disabled selected hidden>Кем являются кредиторы?</option>
-                                    <option value="1">1</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <select class="test-form__select js-select" name="test-form__what">
-                                    <option value disabled selected hidden>У вас есть движимое/недвижимое имущество в собственности?</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <select class="test-form__select js-select" name="test-form__ipotec">
-                                    <option value disabled selected hidden>Есть ли у вас ипотека?</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <select class="test-form__select js-select" name="test-form__expiration">
-                                    <option value disabled selected hidden>У вас есть просрочки по кредитам?</option>
-                                    <option value="1">1</option>
-                                </select>
-                                <button type="button" class="test-btn js-testSliderNextBtn">
-                                    <span>Далее</span>
-                                    <svg class="test-btn__arrow" width="32" height="10" viewBox="0 0 32 10" fill="none" stroke="white" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.5 5H31M31 5L26.5 0.5M31 5L26.5 9.5"/>
-                                    </svg>
-                                </button>
+                            <div class="d-flex flex-column align-items-start">
+                                <div class="test-form__group test-form__group--border d-flex flex-column">
+                                    <div class="test-form__question mb-3">Сумма вашего долга?</div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="test-form__group test-form__group--border d-flex flex-column">
+                                    <div class="test-form__question mb-3">Кем являются кредиторы?</div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">120000</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="test-form__group test-form__group--border d-flex flex-column">
+                                    <div class="test-form__question mb-3">Есть ли у вас ипотека?</div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">Да</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">Не</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="test-form__group d-flex flex-column">
+                                    <div class="test-form__question mb-3">У вас есть просрочки по кредитам?</div>
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">Да</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-6 mb-2">
+                                            <label class="test-form__checkbox mt-0">
+                                                <input class="test-form__checkbox-input" type="checkbox" checked required>
+                                                <span class="test-form__checkbox-gal">
+                                            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 5L5.28571 10L13 1" stroke="#027D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                                <span class="test-form__checkbox-text">Не</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <button type="button" class="test-btn js-testSliderNextBtn">
+                                <span>Далее</span>
+                                <svg class="test-btn__arrow" width="32" height="10" viewBox="0 0 32 10" fill="none" stroke="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.5 5H31M31 5L26.5 0.5M31 5L26.5 9.5"/>
+                                </svg>
+                            </button>
                         </div>
                         <div class="test-info">
                             <div class="test-info__num">

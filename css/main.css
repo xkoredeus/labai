@@ -682,10 +682,18 @@ right: 4px;
 }
 .test-form__group {
     max-width: 470px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+}
+.test-form__group--border {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.test-form__question {
+    font-family: "Calibri-Bold", sans-serif;
 }
 .test-form__select {
     width: 100%;
